@@ -4,7 +4,7 @@ package auth;
 
 // Путь для генерации файлов
 // Тут ("protos/gen/go/sso;ssov1) ssov1 - это имя пакета, которое будет использоваться при импорте 
-option go_package = "protos/gen/go/sso;ssov1";
+option go_package = "github.com/marj4/protos;ssov1";
 
 
 service Auth{
